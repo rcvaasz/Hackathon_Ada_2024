@@ -1,3 +1,16 @@
+# Hackathon Ada Tech 2024
+
+### Organização do repositório
+
+1° Façam um clone do repositório na sua máquina local
+
+2° Crie sua branch usando o comando:
+
+      git checkout -b NomeDaSuaBranch
+
+3° As contribuições devem ser feitas pela branch criada  
+
+
 # Exploração do Conjunto de Dados dos Funcionários  
 
 Este projeto tem como objetivo explorar e visualizar o conjunto de dados dos funcionários obtido de uma empresa. O conjunto de dados contém várias características dos funcionários, como gênero, idade, raça, educação, endereço, estado, tempo de casa, departamento e senioridade. A análise inclui limpeza de dados, visualização de distribuições e insights sobre as características da força de trabalho.
