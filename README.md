@@ -6,6 +6,6 @@
 
 2° Crie sua branch usando o comando:
 
-      git checkout - NomeDaSuaBranch
+      git checkout -b NomeDaSuaBranch
 
 3° As contribuições devem ser feitas pela branch criada
