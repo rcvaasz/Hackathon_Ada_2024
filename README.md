@@ -59,14 +59,14 @@ O projeto inclui visualização de várias distribuições no conjunto de dados:
 - Histograma da distribuição de tempo de casa.
 
 # Dashboard
-Filtro de funcionários entre Feminino e Masculino;
-Filtro de funcionários por cor/raça;
-Contagem de identificações;
-Distribuição por gênero (Gráfico de pizza);
-Distribuição por raça (Gráfico de barras);
-Distribuição de raça por cargos (Gráfico de barras empilhadas 100%);
-Distribuição por raça (Gráfico de colunas);
-Distribuição de idades por sexo (Gráfico de colunas).
+- Filtro de funcionários entre Feminino e Masculino;
+- Filtro de funcionários por cor/raça;
+- Contagem de identificações;
+- Distribuição por gênero (Gráfico de pizza);
+- Distribuição por raça (Gráfico de barras);
+- Distribuição de raça por cargos (Gráfico de barras empilhadas 100%);
+- Distribuição por raça (Gráfico de colunas);
+- Distribuição de idades por sexo (Gráfico de colunas).
 
 ## Ferramentas e Bibliotecas  
 
