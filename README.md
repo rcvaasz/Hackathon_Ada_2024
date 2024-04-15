@@ -1,19 +1,32 @@
+# Nome dos Integrantes
+
+💡 [Eduardo Silva Carvalho](https://github.com/educarvallho)  
+💡 [Isabella Cristina Arving](https://github.com/IsabellaArving)  
+💡 [Leonardo Henrique de Brito Junior](https://github.com/LeonardoHBritoo)  
+💡 [Luiz Antonio C O Junior](https://github.com/luizolijr)  
+💡 [Michael Santana](https://github.com/michaelsantana95)  
+💡 [Raphael Cleber Vaz](https://github.com/rcvaasz)  
+💡 [Ricardo Mazzeo](https://github.com/rtmazzeo)  
+💡 [Vitor Guilherme de Sousa Fontenele](https://github.com/fontenelevitor)  
+💡 [Wiliams Alves](https://github.com/alves05)
+
 # Hackathon Ada Tech 2024
 
-### Organização do repositório
+Análise e Melhorias de Práticas para Diversidade e Inclusão Social na empresa fictícia CORP SOLUTIONS
 
-1° Façam um clone do repositório na sua máquina local
+# Proposta
 
-2° Crie sua branch usando o comando:
+Desenvolver uma análise visando entender a dinâmica atual da empresa na questão de diversidade e inclusão social de Pessoas com Deficiência (PcD) e oferecer soluções para a empresa trilhe um caminho para se tornar mais diversa e inclusa.
+Para a realização das análises foi utilizado uma base de dados disponibilizada pela empresa, os dados remetem as características dos colaboradores no âmbito da empresa, as variáveis disponibilizadas na base para analise são o gênero, idade, raça, educação, endereço, estado, tempo de casa, departamento e senioridade.
 
-      git checkout -b NomeDaSuaBranch
+## Práticas do desenvolvimento do projeto
 
-3° As contribuições devem ser feitas pela branch criada  
-
-
-# Exploração do Conjunto de Dados dos Funcionários  
-
-Este projeto tem como objetivo explorar e visualizar o conjunto de dados dos funcionários obtido de uma empresa. O conjunto de dados contém várias características dos funcionários, como gênero, idade, raça, educação, endereço, estado, tempo de casa, departamento e senioridade. A análise inclui limpeza de dados, visualização de distribuições e insights sobre as características da força de trabalho.
+- Coleta da base de dados usando python
+- Tratamento de encoding e strings com auxilio do python
+- Tratamento dos dados aplicado com python
+- Exploração dos dados, utilizando gráficos e tabelas em python
+- Utilização do Power BI para análise e insghts
+- Apresentação de problemas e proposta de solução
 
 ## Informações do Conjunto de Dados  
 
@@ -58,7 +71,7 @@ O projeto inclui visualização de várias distribuições no conjunto de dados:
 - Gráfico de barras mostrando a distribuição de senioridade;
 - Histograma da distribuição de tempo de casa.
 
-# Dashboard
+## Dashboard
 - Filtro de funcionários entre Feminino e Masculino;
 - Filtro de funcionários por cor/raça;
 - Contagem de identificações;
@@ -72,21 +85,21 @@ O projeto inclui visualização de várias distribuições no conjunto de dados:
 
 O projeto foi implementado usando as seguintes ferramentas e bibliotecas:
 
-- Python
-- PowerBI
-- Canva
-- Pandas
-- os
-- Requests
-- Matplotlib
-- Seaborn
-
-- Dashboard
-- GeoPandas
-- Requests
-- ftfy  
+- `Python`
+- `PowerBI`
+- `Canva`
+- `Pandas`
+- `os`
+- `Requests`
+- `Matplotlib`
+- `Seaborn`
+- `Dashboard`
+- `GeoPandas`
+- `Requests`
+- `ftfy`
 
 ## Como Usar  
 
-- Clone este repositório para sua máquina local.
-- Execute o arquivo Jupyter Notebook para explorar o conjunto de dados e as visualizações.
+- Clone este repositório para sua máquina local;
+- Execute o arquivo Jupyter Notebook para explorar o conjunto de dados e as visualizações;
+- Abra o dashbord_corp_solution.pbix para checar o Painel Final e alguns insights iniciais.
