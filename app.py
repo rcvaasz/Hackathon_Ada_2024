@@ -165,9 +165,17 @@ def main():
 
     if st.button('ENVIAR CADASTRO'):
         try:
-            if not nome or not idade or not rua or not cidade or not cep or not estado:
+            if (
+                not nome
+                or not idade
+                or not nivel_escolaridade
+                or not rua
+                or not cidade
+                or not cep
+                or not estado
+            ):
                 raise ValueError('Todos os campos devem ser preenchidos.')
-            
+
             ficha = {
                 'Nome Completo:': nome,
                 'Idade:': f'{idade} anos',
