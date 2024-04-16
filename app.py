@@ -37,9 +37,11 @@ def main():
     st.header('', divider='rainbow')
     st.caption('Versão 1.0')
 
-    nome = st.text_input('Informe o Nome Completo:', max_chars=50).upper()
+    cl1, cl2 = st.columns(2)
 
-    data_nascimento = st.date_input(
+    nome = cl1.text_input('Informe o Nome Completo:', max_chars=40).upper()
+
+    data_nascimento = cl2.date_input(
         'Data de Nascimento:',
         value=None,
         min_value=datetime(idade_ano(60), 12, 31),
@@ -51,7 +53,7 @@ def main():
 
     if data_nascimento is not None:
         idade = calcula_idade(data_nascimento)
-        st.write(str(idade), 'anos')
+        st.write('Idade:', str(idade), 'anos')
     else:
         idade = 0
 
@@ -67,8 +69,12 @@ def main():
         ],
     )
 
-    endereco = st.text_input('Informe Seu Endereço:', max_chars=50).upper()
-    st.caption('Informe sua rua, número, cidade e CEP.')
+    col1, col2, col3 = st.columns(3)
+    rua = col1.text_input(
+        'Informe Seu Endereço (Rua e N°):', max_chars=25
+    ).upper()
+    cidade = col2.text_input('Informe a Cidade:', max_chars=15)
+    cep = col3.text_input('Informe o CEP (apenas números):', max_chars=8)
 
     estado = st.selectbox(
         'Selecione o Estado',
@@ -112,8 +118,9 @@ def main():
         'Você Possui Algum tipo de Deficiência:', ['Não', 'Sim']
     )
 
+    c1, c2 = st.columns(2)
     if deficiencia == 'Sim':
-        tipo_deficiencia = st.selectbox(
+        tipo_deficiencia = c1.selectbox(
             'Especifique Deficiencia:',
             [
                 'Deficiência fisica',
@@ -124,7 +131,7 @@ def main():
                 'Transtorno do espectro autista',
             ],
         )
-        cid = st.text_input('Informe o CID:', max_chars=5).upper()
+        cid = c2.text_input('Informe o CID:', max_chars=5).upper()
 
     st.markdown(
         "<h4 style='text-align; font-family: Verdana'>Diversidade</h4>",
@@ -161,7 +168,9 @@ def main():
             'Nome Completo:': nome,
             'Idade:': f'{idade} anos',
             'Nivel de Escolaridade:': nivel_escolaridade,
-            'Endereço:': endereco,
+            'Endereço:': rua,
+            'CEP:': cep,
+            'Cidade:': cidade,
             'Estado:': estado,
             'Deficiência:': deficiencia,
             'Tipo de deficiência:': '-'
@@ -174,7 +183,7 @@ def main():
             'Cor ou Raça:': cor,
         }
         st.write('Cadastro Enviado!')
-        st.dataframe(ficha, width=450, height=455)
+        st.dataframe(ficha, width=500, height=525)
 
 
 if __name__ == '__main__':
