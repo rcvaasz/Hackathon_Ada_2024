@@ -49,7 +49,7 @@ O conjunto de dados inclui as seguintes colunas:
 
 - `Base de dados`: tratamento de encoder.
 - `Dados nulos`: foi tomada a decisão de removê-los, uma vez que não há possibilidade de verificação.
-- `Valores inconsistentes`: foi identificado inconsistências nas variáveis de idade e tempo de casa , então foram filtradas para comportar ranges de idades coerentes com a realidade.
+- `Valores inconsistentes`: foi identificado inconsistências nas variáveis de idade e tempo de casa, então foram filtradas para comportar ranges de idades coerentes com a realidade.
 - Por fim a base foi salva com o tratamento aplicado.
 
 ## Exploração dos Dados
