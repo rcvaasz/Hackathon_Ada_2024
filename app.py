@@ -164,26 +164,32 @@ def main():
     )
 
     if st.button('ENVIAR CADASTRO'):
-        ficha = {
-            'Nome Completo:': nome,
-            'Idade:': f'{idade} anos',
-            'Nivel de Escolaridade:': nivel_escolaridade,
-            'Endereço:': rua,
-            'CEP:': cep,
-            'Cidade:': cidade,
-            'Estado:': estado,
-            'Deficiência:': deficiencia,
-            'Tipo de deficiência:': '-'
-            if deficiencia == 'Não'
-            else tipo_deficiencia,
-            'CID:': '-' if deficiencia == 'Não' else cid,
-            'Pronome adequado:': pronome,
-            'Gênero:': genero,
-            'Orientação sexual:': orientacao,
-            'Cor ou Raça:': cor,
-        }
-        st.write('Cadastro Enviado!')
-        st.dataframe(ficha, width=500, height=525)
+        try:
+            if not nome or not idade or not rua or not cidade or not cep or not estado:
+                raise ValueError('Todos os campos devem ser preenchidos.')
+            
+            ficha = {
+                'Nome Completo:': nome,
+                'Idade:': f'{idade} anos',
+                'Nivel de Escolaridade:': nivel_escolaridade,
+                'Endereço:': rua,
+                'CEP:': cep,
+                'Cidade:': cidade,
+                'Estado:': estado,
+                'Deficiência:': deficiencia,
+                'Tipo de deficiência:': '-'
+                if deficiencia == 'Não'
+                else tipo_deficiencia,
+                'CID:': '-' if deficiencia == 'Não' else cid,
+                'Pronome adequado:': pronome,
+                'Gênero:': genero,
+                'Orientação sexual:': orientacao,
+                'Cor ou Raça:': cor,
+            }
+            st.write('Cadastro Enviado!')
+            st.dataframe(ficha, width=500, height=525)
+        except ValueError as e:
+            st.error(e, icon='🚨')
 
 
 if __name__ == '__main__':
