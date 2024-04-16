@@ -7,7 +7,6 @@
 💡 [Michael Santana](https://github.com/michaelsantana95)  
 💡 [Raphael Cleber Vaz](https://github.com/rcvaasz)  
 💡 [Ricardo Mazzeo](https://github.com/rtmazzeo)  
-💡 [Vitor Guilherme de Sousa Fontenele](https://github.com/fontenelevitor)  
 💡 [Wiliams Alves](https://github.com/alves05)
 
 # Nome do Projeto
