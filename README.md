@@ -1,13 +1,13 @@
 # Nome dos Integrantes
 
-💡 [Eduardo Silva Carvalho](https://github.com/educarvallho)  
-💡 [Isabella Cristina Arving](https://github.com/IsabellaArving)  
-💡 [Leonardo Henrique de Brito Junior](https://github.com/LeonardoHBritoo)  
-💡 [Luiz Antonio C O Junior](https://github.com/luizolijr)  
-💡 [Michael Santana](https://github.com/michaelsantana95)  
-💡 [Raphael Cleber Vaz](https://github.com/rcvaasz)  
-💡 [Ricardo Mazzeo](https://github.com/rtmazzeo)  
-💡 [Wiliams Alves](https://github.com/alves05)
+💡 [Eduardo Silva Carvalho](https://www.linkedin.com/in/educarvalh)  
+💡 [Isabella Cristina Arving](https://www.linkedin.com/in/isabella-arving-b39385231/)  
+💡 [Leonardo Henrique de Brito Junior](https://www.linkedin.com/in/leonardohbrito/)  
+💡 [Luiz Antonio C O Junior](https://www.linkedin.com/in/luiz-antonio-15b7b395/)  
+💡 [Michael Santana](https://www.linkedin.com/in/michaelsantana95/)  
+💡 [Raphael Cleber Vaz](https://www.linkedin.com/in/rcvaz/)  
+💡 [Ricardo Mazzeo](https://www.linkedin.com/in/ricardo-mazzeo/)  
+💡 [Wiliams Alves](https://www.linkedin.com/in/wiliamsalves/)
 
 # Nome do Projeto
 
@@ -24,7 +24,7 @@ Para a realização das análises foi utilizado uma base de dados disponibilizad
 - Tratamento de encoding e strings com auxilio do python
 - Tratamento dos dados aplicado com python
 - Exploração dos dados, utilizando gráficos e tabelas em python
-- Utilização do Power BI para análise e insghts
+- Utilização do Power BI para análise e insights
 - Apresentação de problemas e proposta de solução
 
 ## Informações do Conjunto de Dados  
@@ -49,7 +49,7 @@ O conjunto de dados inclui as seguintes colunas:
 
 - `Base de dados`: tratamento de encoder.
 - `Dados nulos`: foi tomada a decisão de removê-los, uma vez que não há possibilidade de verificação.
-- `Valores inconsistentes`: foi identificado nas variáveis de idade e tempo de casa inconsisteincias, então foram filtradas para comportar ranges de idades coerentes com a realidade.
+- `Valores inconsistentes`: foi identificado inconsistências nas variáveis de idade e tempo de casa, então foram filtradas para comportar ranges de idades coerentes com a realidade.
 - Por fim a base foi salva com o tratamento aplicado.
 
 ## Exploração dos Dados
@@ -66,16 +66,16 @@ Os Gráficos aplicados foram:
 - Utilizamos a ferramenta de BI, o Power BI, para realizar as análises e extrações de insights.
 - Dos insights de problemas encontrados na organização, a partir das informações da base de dados, podemos abordar quatro pontos críticos:
 
-    - Baixa diversidade de gênero
-    - Baixa diversidade de cor e raça
-    - Idade do quadro de funcionários diminuindo acima dos 35 anos.
-    - Ausência de informações sobre colaboradores PcD
+    - Baixa diversidade de gênero;
+    - Baixa diversidade de cor e raça;
+    - Idade do quadro de funcionários diminuindo acima dos 35 anos;
+    - Ausência de informações sobre colaboradores PcD.
 
 ## Dashboard
 
 [<img src='./imagens/dashboard.jpg' width=500>](https://app.powerbi.com/view?r=eyJrIjoiNzA5Yjg4ZTUtZGEzNi00MDc3LWI5OWMtZjFhZGNiZmVjYjc2IiwidCI6ImMxNDA5NGQwLTA0ZTMtNGM2YS1iMTM0LTg4ZTUxZDMwOWZmYyJ9)
 
-#### Acesso através do Qrcod ou Pelo Link:
+#### Acesso através do QRcode ou Pelo Link:
 
 <img src='./imagens/qrcode_dasboard.png' width=100>
 
@@ -94,13 +94,13 @@ Os Gráficos aplicados foram:
 
 Para auxiliar nesta tarefa de levantamento de diversidade atual da empresa, a equipe está disponibilizando um exemplo de software a ser empregado, juntamente com uma indicação de schema de banco de dados para armazenamento.
 
-A usabilidade da ferramenta não se limita em apenas atualização do cadastro existente, podendo deser melhorado e adaptado para uso em processos de recrutamento e seleção.
+A usabilidade da ferramenta não se limita em apenas atualização do cadastro existente, podendo ser melhorada e adaptada para uso em processos de recrutamento e seleção.
 
 - Formulário de Inclusão e Diversidade
 
 [<img src='./imagens/formulario.jpg'>](https://formulario-corp-solutions.streamlit.app/)
 
-#### Use o Qrcode ou Link para Acessar o app.
+#### Use o QRcode ou Link para Acessar o app.
 
 <img src='./imagens/qrcode_formulario.png' width=100>
 
@@ -120,6 +120,6 @@ Acreditamos que, para o desenvolvimento de uma organização que almeja destaque
 Atente-se as políticas de `Licenças` do projeto e siga os passos a seguir:
 
 - Clone este repositório para sua máquina local;
-- Execute o arquivo Jupyter Notebook para explorar o conjunto de dados e as visualizações;
-- Abra o dashbord_corp_solution.pbix para checar o Painel Final e alguns insights iniciais;
-- Estude o código do app de formuláio, assim como o schema do banco de dados.
+- Execute o arquivo Jupyter Notebook `Hackathon_Ada_2024.ipynb` para explorar o conjunto de dados e as visualizações;
+- Acesse o arquivo Power BI `dashbord_corp_solution.pbix` para checar o Painel Final e alguns insights iniciais;
+- Estude o código do app de formulário, assim como o schema do banco de dados.
