@@ -9,7 +9,7 @@
 💡 [Ricardo Mazzeo](https://www.linkedin.com/in/ricardo-mazzeo/)  
 💡 [Wiliams Alves](https://www.linkedin.com/in/wiliamsalves/)
 
-# Nome do Projeto
+# Hackathon Ada Tech 2024
 
 Análise de Melhorias para Diversidade e Inclusão Social na empresa fictícia CORP SOLUTIONS
 
