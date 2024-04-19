@@ -13,6 +13,8 @@
 
 Análise de Melhorias para Diversidade e Inclusão Social na empresa fictícia CORP SOLUTIONS
 
+** [Clique aqui para visualizar o repositório de entrega AdaHack-2024.](https://github.com/Ada-Empregabilidade/adahack-2024-dados/tree/main/Entregas/DD-01)
+
 # Proposta
 
 Desenvolver uma análise visando entender a dinâmica atual da empresa na questão de diversidade e inclusão social de Pessoas com Deficiência (PcD) e oferecer soluções para a empresa trilhe um caminho para se tornar mais diversa e inclusa.
