@@ -5,7 +5,7 @@
 💡 [Leonardo Henrique de Brito Junior](https://www.linkedin.com/in/leonardohbrito/)  
 💡 [Luiz Antonio C O Junior](https://www.linkedin.com/in/luiz-antonio-15b7b395/)  
 💡 [Michael Santana](https://www.linkedin.com/in/michaelsantana95/)  
-💡 [Raphael Cleber Vaz](https://www.linkedin.com/in/rcvaz/)  
+💡 [Rafael Cleber Vaz](https://www.linkedin.com/in/rcvaz/)  
 💡 [Ricardo Mazzeo](https://www.linkedin.com/in/ricardo-mazzeo/)  
 💡 [Wiliams Alves](https://www.linkedin.com/in/wiliamsalves/)
 
